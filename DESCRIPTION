@@ -1,7 +1,7 @@
 Package: tdcmStan
 Type: Package
 Title: Automating the Creation of Stan Code for TDCMs
-Version: 1.0.0
+Version: 2.0.0
 Authors@R: 
     c(person(given = "Jeffrey",
              family = "Hoover",
@@ -20,18 +20,18 @@ Description: A collection of functions for automatically creating 'Stan'
       fungible TDCMs (i.e., TDCMs with item parameters constrained to be equal
       across all items), and multi-threaded TDCMs.
 License: GPL (>= 2)
-Imports: dplyr (>= 1.0.7), glue (>= 1.4.2), magrittr (>= 2.0.1), rlang
-        (>= 0.4.11), stringr (>= 1.4.0), tibble (>= 3.1.5), tidyr (>=
-        1.1.4)
+Imports: dplyr (>= 1.0.7), glue (>= 1.4.2), magrittr (>= 2.0.1),
+        parallel (>= 4.1.0), rlang (>= 0.4.11), stringr (>= 1.4.0),
+        tibble (>= 3.1.5), tidyr (>= 1.1.4), tidyselect (>= 1.1.2)
 Suggests: readr (>= 2.0.0), testthat (>= 3.0.4)
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2022-05-06 21:30:31 UTC; jeff
+Packaged: 2023-02-16 19:48:52 UTC; jeff
 Author: Jeffrey Hoover [aut, cre, cph]
     (<https://orcid.org/0000-0002-0276-0308>),
   W. Jake Thompson [aut] (<https://orcid.org/0000-0001-7339-0300>)
 Maintainer: Jeffrey Hoover <jeffrey.c.hoover@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-05-09 07:50:02 UTC
+Date/Publication: 2023-03-03 14:40:01 UTC
