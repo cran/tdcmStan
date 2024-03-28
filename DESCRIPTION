@@ -1,7 +1,7 @@
 Package: tdcmStan
 Type: Package
 Title: Automating the Creation of Stan Code for TDCMs
-Version: 2.0.0
+Version: 3.0.0
 Authors@R: 
     c(person(given = "Jeffrey",
              family = "Hoover",
@@ -26,12 +26,14 @@ Imports: dplyr (>= 1.0.7), glue (>= 1.4.2), magrittr (>= 2.0.1),
 Suggests: readr (>= 2.0.0), testthat (>= 3.0.4)
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
+URL: https://github.com/atlas-aai/tdcmStan
+BugReports: https://github.com/atlas-aai/tdcmStan/issues
 NeedsCompilation: no
-Packaged: 2023-02-16 19:48:52 UTC; jeff
+Packaged: 2024-03-27 16:09:02 UTC; jeff
 Author: Jeffrey Hoover [aut, cre, cph]
     (<https://orcid.org/0000-0002-0276-0308>),
   W. Jake Thompson [aut] (<https://orcid.org/0000-0001-7339-0300>)
 Maintainer: Jeffrey Hoover <jeffrey.c.hoover@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-03-03 14:40:01 UTC
+Date/Publication: 2024-03-28 08:30:02 UTC
